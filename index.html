@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drishya Surgical Suppliers</title>
+  <meta name="description" content="Drishya Surgical Suppliers — Quality disposable & reusable surgical products, instruments and consumables." />
+  <link rel="icon" href="#" />
+  <style>
+    :root{
+      --primary:#0b6efd;
+      --accent:#0f766e;
+      --muted:#80746b;
+      --bg:#f8fcfa;
+      --card:#ffffff;
+      --radius:14px;
+      --glass: rgba(255,255,255,0.6);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#ffffff);color:#0f172a;line-height:1.5}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--primary),var(--accent));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:600}
+    nav a.cta{background:var(--primary);color:white;padding:8px 12px;border-radius:10px}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:18px}
+    .hero-card{background:var(--card);padding:28px;border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,0.08)}
+    .hero h1{margin:0 0 12px;font-size:34px;line-height:1.05}
+    .hero p.lead{color:var(--muted);margin:0 0 18px}
+    .cta-row{display:flex;gap:12px}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:var(--primary);color:white}
+    .btn-outline{border:2px solid var(--primary);color:var(--primary);background:transparent}
+
+    .features{display:flex;gap:14px;margin-top:18px}
+    .feature{flex:1;padding:12px;border-radius:12px;background:linear-gradient(180deg,var(--glass),rgba(255,255,255,0.9));box-shadow:inset 0 1px rgba(255,255,255,0.5);}
+    .feature h4{margin:6px 0}
+
+    /* product list */
+    .products{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:24px}
+    .product{background:var(--card);padding:14px;border-radius:12px;border:1px solid #eef2ff}
+    .product h5{margin:8px 0 6px}
+    .price{color:var(--primary);font-weight:700}
+
+    /* contact */
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+    form{background:var(--card);padding:18px;border-radius:12px}
+    label{display:block;margin:8px 0 6px;color:var(--muted);font-size:14px}
+    input,textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid #e6edf3;font-size:15px}
+    textarea{min-height:120px}
+
+    footer{margin-top:36px;padding:18px 0;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr;}
+      .contact{grid-template-columns:1fr}
+      nav a{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">DS</div>
+        <div>
+          <div style="font-weight:800">Drishya Surgical Suppliers</div>
+          <div style="font-size:13px;color:var(--muted)">Quality surgical supplies & instruments</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Contact Us</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Reliable surgical disposables & instruments — supplied on time.</h1>
+        <p class="lead">Drishya Surgical Suppliers offers a curated range of single-use disposables, reusable instruments and protective equipment to hospitals, clinics and laboratories across Nepal.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">Contact</a>
+          <a class="btn btn-outline" href="#products">View Products</a>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <strong>Fast Delivery , Safe Delivery</strong>
+            <div style="font-size:13px;color:var(--muted)">Nationwide shipping & priority for hospitals</div>
+          </div>
+          <div class="feature">
+            <strong>Quality Guaranteed</strong>
+            <div style="font-size:13px;color:var(--muted)">ISO-certified brands & batch traceability</div>
+          </div>
+          <div class="feature">
+            <strong>Competitive Pricing</strong>
+            <div style="font-size:13px;color:var(--muted)">Volume discounts for bulk orders</div>
+          </div>
+        </div>
+      </div>
+
+      <aside style="padding:18px;background:linear-gradient(180deg,#fff,#f7fbff);border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.04)">
+        <h3 style="margin-top:0">Quick Contact</h3>
+        <p style="margin:6px 0;color:var(--muted)"><strong>Phone:</strong> +9779804040629</p>
+        <p style="margin:6px 0;color:var(--muted)"><strong>Email:</strong> drishya surgical8@gmai.com</p>
+        <p style="margin:6px 0;color:var(--muted)"><strong>Location:</strong> Biratnagar, Nepal</p>
+        <div style="margin-top:12px">
+          <a class="btn btn-primary" href="#contact">Send Inquiry</a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="products">
+      <h2 style="margin-top:28px">Featured Products</h2>
+      <div class="products">
+        <article class="product">
+          <h5>Disposable Surgical Gloves (Latex) — Box of 100</h5>
+          <div style="font-size:13px;color:var(--muted)">Powder-free, single-use surgical gloves available in S/M/L/XL.</div>
+          <div style="margin-top:10px" class="price">Price on request</div>
+        </article>
+<h2>My Image Example</h2>
+    <img src="image.jpg" alt="Beautiful Nature" width="400" height="250">
+        <article class="product">
+          <h5>Surgical Face Masks — Box of 50</h5>
+          <div style="font-size:13px;color:var(--muted)">3-ply disposable masks with earloops, hypoallergenic.</div>
+          <div style="margin-top:10px" class="price">Price on request</div>
+        </article>
+
+        <article class="product">
+          <h5>Sterilized Surgical Instruments Set</h5>
+          <div style="font-size:13px;color:var(--muted)">Forceps, scissors, clamps — stainless steel, autoclave-safe.</div>
+          <div style="margin-top:10px" class="price">Custom quote</div>
+        </article>
+
+        <article class="product">
+          <h5>Disposable Syringes with Needle</h5>
+          <div style="font-size:13px;color:var(--muted)">Various sizes: 1ml, 2ml, 5ml, 10ml. Individually packed.</div>
+          <div style="margin-top:10px" class="price">Price on request</div>
+        </article>
+
+        <article class="product">
+          <h5>Operating Theatre Drapes</h5>
+          <div style="font-size:13px;color:var(--muted)">Sterile, fluid-resistant drapes in multiple sizes.</div>
+          <div style="margin-top:10px" class="price">Price on request</div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 style="margin-top:28px">About Us</h2>
+      <div style="background:var(--card);padding:18px;border-radius:12px;margin-top:12px">
+        <p style="margin:0;color:var(--muted)">Drishya Surgical Suppliers is committed to supplying hospitals, clinics and healthcare professionals with high-quality surgical disposables and instruments. We focus on product reliability, regulatory compliance, and fast delivery. Whether you need a regular consumables supply or a one-off instrument set, our team can provide competitive pricing and reliable logistics across Nepal.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div>
+        <h2>Contact & Enquiry</h2>
+        <form onsubmit="submitForm(event)">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" required placeholder="Your full name">
+
+          <label for="organization">Organization / Hospital</label>
+          <input id="organization" name="organization" placeholder="Clinic or hospital name">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@hospital.com">
+
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" placeholder="+977-9804040629">
+
+          <label for="message">Message / Items required</label>
+          <textarea id="message" name="message" placeholder="Tell us what you need..."></textarea>
+
+          <div style="margin-top:12px">
+            <button class="btn btn-primary" type="submit">Send Inquiry</button>
+            <button type="button" class="btn btn-outline" onclick="window.location='#'">Download Catalog</button>
+          </div>
+        </form>
+      </div>
+
+      <aside style="align-self:start">
+        <div style="background:var(--card);padding:18px;border-radius:12px">
+          <h3 style="margin-top:0">Office Hours</h3>
+          <p style="margin:6px 0;color:var(--muted)">Sun - Fri: 09:00 — 18:00</p>
+          <p style="margin:6px 0;color:var(--muted)"><strong>Emergency:</strong> +977-98XXXXXXXX (24/7 for hospitals)</p>
+          <h4 style="margin-top:12px">Follow Us</h4>
+          <p style="margin:6px 0;color:var(--muted)">Facebook • LinkedIn • Instagram</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <div>© Drishya Surgical Suppliers — All rights reserved.</div>
+      <div style="font-size:13px;color:var(--muted)">Made with care • Terms • Privacy</div>
+    </footer>
+  </div>
+
+  <script>
+    function submitForm(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      if(!name){ alert('Please enter your name'); return }
+      // Simulated submission — replace with real endpoint
+      alert('Thanks, ' + name + '! Your inquiry has been noted. We will contact you soon.');
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
